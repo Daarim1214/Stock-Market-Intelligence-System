@@ -1,6 +1,14 @@
 # 📈 Stock Market Intelligence System
 
-![Home Page](screenshots/Comparision/1.png)
+<h1 align="center">📈 Stock Market Intelligence System</h1>
+
+<p align="center">
+  <img src="screenshots/home.png" width="800" alt="Application Screenshot">
+</p>
+
+<p align="center">
+AI-powered Stock Market Intelligence System built with Machine Learning, SHAP, RAG and Cohere.
+</p>
 
 
 An AI-powered Stock Market Intelligence System developed using Machine Learning, Explainable AI (SHAP), Retrieval-Augmented Generation (RAG), and Large Language Models (Cohere).
