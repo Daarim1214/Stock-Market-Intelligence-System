@@ -14,7 +14,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-COHERE_API_KEY = "YOUR_COHERE_API_KEY"
+COHERE_API_KEY = st.secrets["COHERE_API_KEY"]
 
 # ======================================================
 # LOAD EMBEDDING MODEL
@@ -45,15 +45,15 @@ def load_news():
 
     for ticker in assets:
 
-       filename = f"news/news_{ticker}.csv"
+       filename = f"News/news_{ticker}.csv"
 
-    if os.path.exists(filename):
+       if os.path.exists(filename):
 
           df = pd.read_csv(filename)
 
           news_data[ticker] = df
 
-          return news_data
+    return news_data
 
 
 news_data = load_news()
@@ -462,7 +462,7 @@ with tab3:
         # -------------------------
         # Load data
         # -------------------------
-        df = pd.read_csv(f"data_{asset}.csv")
+        df = pd.read_csv(f"Data/data_{asset}.csv")
 
         df["ma_7"] = df["Close"].rolling(7).mean()
         df["ma_30"] = df["Close"].rolling(30).mean()
