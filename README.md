@@ -1,4 +1,4 @@
-# 📈 Stock Market Intelligence System
+
 
 <h1 align="center">📈 Stock Market Intelligence System</h1>
 
