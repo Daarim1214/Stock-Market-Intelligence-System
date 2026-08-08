@@ -3,7 +3,7 @@
 <h1 align="center">📈 Stock Market Intelligence System</h1>
 
 <p align="center">
-  <img src="screenshots//Comparision/1.png" width="800" alt="Application Screenshot">
+  <img src="screenshots//Predictions/1.png" width="800" alt="Application Screenshot">
 </p>
 
 <p align="center">
